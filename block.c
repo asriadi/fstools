@@ -820,7 +820,7 @@ static int main_hotplug(int argc, char **argv)
 
 		return 0;
 	} else if (strcmp(action, "add")) {
-		ULOG_ERR("Unkown action %s\n", action);
+		ULOG_ERR("Unknown action %s\n", action);
 
 		return -1;
 	}
